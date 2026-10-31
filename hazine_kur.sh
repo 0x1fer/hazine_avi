@@ -86,8 +86,8 @@ EOF
 cat > "$HEDEF/kapi1/kapi2/.gizli_oda/harita.txt" << 'EOF'
 Gizli odayi buldun!
 
-PARCA 1: ../../../arsiv/log.txt dosyasinin EN SON satirinda.
-PARCA 2: ayni klasordeki rapor.txt dosyasinin EN ILK satirinda.
+PARCA 1: arsiv/log.txt dosyasinin EN SON satirinda.
+PARCA 2: arsiv klasorundeki rapor.txt dosyasinin EN ILK satirinda.
 
 Ipucu: dosyalar uzun. cat ile ekran dolar, baska yolu var.
 EOF
