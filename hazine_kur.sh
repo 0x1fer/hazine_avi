@@ -5,7 +5,6 @@
 #   bash hazine_kur.sh            # ~/hazine altına kurar
 #   bash hazine_kur.sh -f         # varsa eskisini silip yeniden kurar
 #
-# Kullanılan konular: ls -a, cd (göreli/mutlak yol), cat, head, tail
 
 set -euo pipefail
 
