@@ -84,7 +84,6 @@ EOF
 cat > "$HEDEF/kapi1/.ipucu" << 'EOF'
 Iyi gidiyorsun, gizli dosyayi buldun.
 Siradaki adim kapi2'de. Orada bircok oda var ama sadece biri gercek.
-Gercek odanin kapisi gizli ve adinda alt cizgi (_) yok.
 EOF
 
 # Tuzak 2: boş klasörler zinciri
