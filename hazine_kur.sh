@@ -61,7 +61,7 @@ GERCEK_ODA="$HEDEF/kapi1/kapi2/.gizli oda"   # adında boşluk var: tırnak veya
 mkdir -p "$HEDEF"/{buraya_bakma,kapi1/kapi3/bos/daha_bos,arsiv}
 mkdir -p "$GERCEK_ODA"
 # kapi2 içindeki sahte odalar (hepsinin adında alt çizgi var, gerçeğinde yok)
-mkdir -p "$HEDEF"/kapi1/kapi2/{.gizli_oda,.eski_oda,oda_1,oda_2/kilitli_dolap,hazine_odasi}
+mkdir -p "$HEDEF"/kapi1/kapi2/{oda_1,oda_2/kilitli_dolap,hazine_odasi}
 
 # Başlangıç noktası
 cat > "$HEDEF/BENI_OKU.txt" << 'EOF'
@@ -92,18 +92,6 @@ EOF
 
 # --- kapi2: sahte odalar --------------------------------------------------------
 K2="$HEDEF/kapi1/kapi2"
-
-# Tuzak 4: gerçeğine en çok benzeyen sahte oda, yanlış haritayla
-cat > "$K2/.gizli_oda/harita.txt" << 'EOF'
-Gizli odayi buldun!
-
-PARCA 1: ../../../arsiv/eski_log.txt dosyasinin SON 2 satirinda.
-PARCA 2: ../hazine_odasi/bayrak.txt dosyasinin ILK satirinda.
-EOF
-
-cat > "$K2/.eski_oda/.not" << 'EOF'
-Bu oda yillar once terk edildi. Haritayi tasidilar.
-EOF
 
 cat > "$K2/oda_1/not.txt" << 'EOF'
 Bos bir oda. Burada hicbir sey yok.
